@@ -1,0 +1,12 @@
+The code is organized as follow:
+- The client side is called: client.py
+- The server side is called: server.py
+- The folder containing the server private key and certificate is called "server"
+- The folder containing the client private key and certificate is called "client"
+- The algorithm to generate 4 keys from master secret is called: key_generate.py
+- The big file for data transfer from server: random_big_file.dat
+- The big file that the client received: client_file.dat
+- The code besides being submitted in handin  is also being store in a public github repo: https://github.com/anhtran1010/Network_Security_mySSL.git
+- To run the code, here are the list of command:
+python3 server.py server/server_certificate.pem
+python3 client.py client/client_certificate.pem
